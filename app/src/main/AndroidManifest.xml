@@ -25,7 +25,7 @@
         </activity>
 
         <provider
-            android:name="androidx.core.content.FileProvider"
+            android:name="com.hornedheck.vkpicshare.linksdownload.FileProvider"
             android:authorities="com.hornedheck.vkpicshare.files"
             android:exported="false"
             android:grantUriPermissions="true">
